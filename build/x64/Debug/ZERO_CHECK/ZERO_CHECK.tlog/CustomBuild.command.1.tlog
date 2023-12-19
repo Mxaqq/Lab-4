@@ -1,0 +1,10 @@
+^C:\USERS\GOLOV\SOURCE\REPOS\L4\BUILD\CMAKEFILES\C08E07C7E0A6E143301B8392CF459264\GENERATE.STAMP.RULE
+setlocal
+D:\bin\cmake.exe -SC:/Users/golov/source/repos/l4 -BC:/Users/golov/source/repos/l4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/golov/source/repos/l4/build/Lab-4.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

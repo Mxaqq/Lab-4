@@ -1,0 +1,2 @@
+﻿  test.cpp
+C:\Users\golov\source\repos\l4\test\test.cpp(1,10): fatal  error C1083: Не удается открыть файл включение: TQueue.cpp: No such file or directory,
